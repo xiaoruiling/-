@@ -1,4 +1,7 @@
 # money to capital Chinese
+
+### 转载自 http://www.cnblogs.com/CF-STRONG/p/5940983.html
+
 money convert to capital Chinese
 
 ```
