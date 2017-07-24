@@ -1,14 +1,14 @@
 # money to capital Chinese
 money convert to capital Chinese
 
-`
+```
 + (NSString *)toCapitalLetters:(NSString *)money
 {
   NSString *newMoney = [NSString stringWithFormat:@"%.2f",[money doubleValue]];
   if ([newMoney length] > 16) {
     newMoney = [newMoney substringWithRange:NSMakeRange([newMoney length] - 16, 16)];
   }
-  //首先转化成标准格式        “200.23”
+    // 首先转化成标准格式        “200.23”
   NSMutableString *tempStr=[[NSMutableString alloc] initWithString:newMoney];
   
   //位
@@ -108,4 +108,4 @@ money convert to capital Chinese
   
   return endStr;
 }
-`
+```
